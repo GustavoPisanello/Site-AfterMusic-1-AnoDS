@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+} 
+
+body{
+    text-align: center; 
+    font-family: 'Open Sans', sans-serif;
+} 
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    box-shadow: 0px 1px 10px rgb(123, 104, 238);
+    background-color: white;
+}
+
+.conteudo-menu{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0;
+  padding-bottom: 0;;
+}
+
+/* .menu img{
+    height: 20px;
+} */
+
+.menu h1 a{
+    color: #4B0082;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li a{
+    display: block;
+    padding: 20px;
+    font-size: 18px;
+    color: #4B0082;
+    position: relative;
+    text-decoration: none;
+}
+
+.menu ul li a::after{
+    content: '';
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    width: 0;
+    height: 1.5px;
+    background-color: #4B0082;
+    transition: all 300ms ease-in-out;
+}
+
+.menu ul li a:hover::after{
+    width: 30%;
+    left: 35%;
+}
+
+.spacing-menu{
+    height: 61px;
+}
+
+.celebridades-titulo{
+    padding-top: 60px;
+    text-align: center;
+    color:#4B0082;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+}
+
+hr{
+    margin-bottom: 50px;
+    background-color: #4B0082;
+    width: 400px;
+    height: 1.5px;
+}
+
+.conteiner-ag{
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.title-artist{
+    display: flex;
+    justify-content: center;
+
+}
+
+.artistas{
+    display: grid;
+    grid-template-columns: repeat(2, 1rf);
+    margin: 0 auto;
+    grid-gap: 40px;
+}
+
+.content-artistas{
+    background: linear-gradient(90deg, rgba(189,109,242,1) 23%, rgba(84,5,108,1) 72%);
+    display: flex;
+    text-align: center;
+    border-radius: 20px;
+    padding: 35px 40px;
+    box-shadow: 6px 6px 10px rgb(20, 20, 20);
+    transition: background-color 1s ease-out;
+}
+
+.content-artistas h3{
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.content-artistas .art{
+    width: 400px;
+    border-radius: 20px;
+    height: auto;
+    margin-left: 1px;
+}
+
+.content-artistas p{
+    margin-top: 10%;
+}
+
+.conteudo-artistas{
+    margin-top: 50px;
+    display: flex;
+}
+
+.prince{
+    position: relative;
+    left: 29%;
+}
+
+.title-a{
+    position: relative;
+    left: 32%;
+}
+
+.btn{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    background: rgb(189,109,242);
+    background: linear-gradient(90deg, rgba(189, 109, 242, 0.315) 38%, rgba(47, 7, 209, 0.322) 68%);
+    font-size: .9em;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 20px;
+}
+
+#footer{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 15px;
+    width: 100%;
+    height: auto;
+    color: white;
+    background-color: black;
+}
+
+p.copyright{
+    margin: 0;
+    padding: 15px;
+}
+
+.topo{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #4B0082;
+    box-shadow: 0 0 10px 3px rgb(123, 104, 238);
+    text-decoration: none;
+}
+
+

@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+} 
+
+body{
+    text-align: center; 
+    font-family: 'Open Sans', sans-serif;
+} 
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    box-shadow: 0px 1px 10px rgb(123, 104, 238);
+    background-color: white;
+}
+
+.conteudo-menu{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0;
+  padding-bottom: 0;;
+}
+
+/* .menu img{
+    height: 20px;
+} */
+
+.menu h1 a{
+    color: #4B0082;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li a{
+    display: block;
+    padding: 20px;
+    font-size: 18px;
+    color: #4B0082;
+    position: relative;
+    text-decoration: none;
+}
+
+.menu ul li a::after{
+    content: '';
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    width: 0;
+    height: 1.5px;
+    background-color: #4B0082;
+    transition: all 300ms ease-in-out;
+}
+
+.menu ul li a:hover::after{
+    width: 30%;
+    left: 35%;
+}
+
+.spacing-menu{
+    height: 61px;
+}
+
+.svg-main{
+    background-image: url(../img/gradient.svg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 1024px;
+}
+
+.svg-main-altura{
+    min-height: 50vh;
+}
+
+.slogan p{
+    color: white;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 60px;
+    font-style: italic;
+    font-family: 'Courgette', cursive;
+    text-transform: uppercase;
+}
+
+.ver-mais{
+    text-transform: uppercase;
+    border: 5px solid white;
+    background: none;
+    color: white;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+    transition: all 300ms ease-in-out;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.botao-ver-mais{
+    margin-top: 60px;
+}
+
+.ver-mais:hover{
+    transition: 600ms;
+    border: 5px solid white;
+    background: white;
+    color:#4B0082;
+}
+
+.conteudo-home{
+    margin-top: 60px;
+}
+
+.home-titulo-lista h2{
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    color: #4B0082;
+    font-size: 28px;
+}
+
+.lista-itens-home ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.lista-itens-home img{
+    width: 70%;
+    height: 200px;
+}
+
+.lista-itens-home ul a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.lista-itens-home ul h3{
+    padding-top: 40px; 
+    font-size: 22px;
+    color:#4B0082;
+    text-align: center;
+}
+
+.lista-itens-home ul p{
+    padding-top: 30px; 
+    font-size: 18px;
+    color: black;
+}
+
+
+.lista-itens-home img:hover{
+    transform:  scale(1.2); 
+    transition: 600ms;  
+}
+
+#footer{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 15px;
+    width: 100%;
+    height: auto;
+    color: white;
+    background-color: black;
+}
+
+p.copyright{
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.topo{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #4B0082;
+    box-shadow: 0 0 10px 3px rgb(123, 104, 238);
+    text-decoration: none;
+}
+
+
+
+
+
